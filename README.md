@@ -6,13 +6,15 @@
   * Set Email/Password to `Enabled`. It's the only one that'll work with this repo currently. I may add more later.
 ## Set up Firestore database
 * Click on Database > Cloud Firestore > Rules
- `service cloud.firestore {
+```
+ service cloud.firestore {
   match /databases/{database}/documents {
     match /{document=**} {
       allow read, write;
     }
   }
-}`
+}
+```
 ## Set up your workspace
 
 ### Install your node modules
