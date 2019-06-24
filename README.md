@@ -41,7 +41,7 @@ REACT_APP_ADMIN=<the email address of the admin>
 * No, don't overwrite it (or do, it shouldn't break anything)
 * For public directory, type in `build` and hit enter
 * Yes, configure as a single-page app
-* If build/index.html already exists, overwriting it or not won't really make a difference because you'll be rebuilding before deploy anyway
+* If build/index.html already exists, overwriting it or not won't really make a difference because you'll be rebuilding before deploy anyway. 
 Should be ready to rock and roll now
 
 ### Build the app
