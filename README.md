@@ -1,4 +1,4 @@
-##Start
+# Start
 * Head over to the [Firestore](https://console.firebase.google.com) page
 * Create a new project
 ## Set up Authentication
